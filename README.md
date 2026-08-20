@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://github.com/oimcuyyy"><img src="https://img.shields.io/badge/GitHub-Oimcuyyy-1E88E5?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="mailto:muhammadrajadaffa@gmail.com"><img src="https://img.shields.io/badge/Email-FFFFFF?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email" /></a>
+  <a href="mailto:muhammadrochimuloh11@gmail.com"><img src="https://img.shields.io/badge/Email-FFFFFF?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email" /></a>
 </p>
 
 ## Tech Stack
@@ -59,8 +59,8 @@ Building and exploring web development projects, sharpening skills in frontend i
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rhellokitty/rhellokitty/output/galaga-contribution-graph-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rhellokitty/rhellokitty/output/galaga-contribution-graph.svg" />
-    <img src="https://raw.githubusercontent.com/rhellokitty/rhellokitty/output/galaga-contribution-graph-dark.svg" alt="Galaga contribution graph" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oimcuyyy/oimcuyyy/output/galaga-contribution-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oimcuyyy/oimcuyyy/output/galaga-contribution-graph.svg" />
+    <img src="https://raw.githubusercontent.com/oimcuyyy/oimcuyyy/output/galaga-contribution-graph-dark.svg" alt="Galaga contribution graph" width="100%" />
   </picture>
 </p>

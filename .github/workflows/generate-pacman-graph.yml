@@ -23,7 +23,7 @@ jobs:
       - name: Generate contribution graph SVGs
         uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: rhellokitty
+          github_user_name: oimcuyyy
           games: 'galaga'
 
       - name: Push SVGs to output branch
