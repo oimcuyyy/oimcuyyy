@@ -1,28 +1,16 @@
-name: Generate PageSpeed Metrics
+name: Generate Profile Metrics
 
 on:
-  schedule:
-    - cron: "0 3 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
 
 jobs:
-  pagespeed:
+  metrics:
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
     steps:
-      - name: Generate PageSpeed metrics
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.pagespeed.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
-          plugin_pagespeed: yes
-          plugin_pagespeed_url: https://my-digital-portfolio-oimcuyyy1.vercel.app/
-          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+      - name: Checkout
+        uses: actions/checkout@v4

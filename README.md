@@ -53,7 +53,7 @@ Building and exploring web development projects, sharpening skills in frontend i
       <img src="./assets/github-streak.svg" alt="GitHub contribution streak" width="100%" />
     </td>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/oimcuyyy/oimcuyyy/main/metrics.plugin.pagespeed.svg?v=4" alt="PageSpeed metrics" width="100%" />
+      <img src="./assets/github-stats.svg" alt="GitHub top languages and stats" width="100%" />
     </td>
   </tr>
 </table>
