@@ -37,6 +37,8 @@
   <b>Tools</b><br>
   <img src="https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS_Code-111827?style=for-the-badge&logo=visualstudiocode&logoColor=0078D4" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Antigravity_AI-111827?style=for-the-badge&logo=googlegemini&logoColor=8E75B2" alt="Antigravity" />
 </p>
 
 ---
