@@ -16,7 +16,7 @@
 
 ---
 
-### <img src="https://cdn.simpleicons.org/visualstudiocode/38BDF8" width="18" height="18" align="center" alt="code" /> Tech Ecosystem & Tooling
+### <img src="./assets/icon-code.svg" width="18" height="18" align="center" alt="code" /> Tech Ecosystem & Tooling
 
 <div align="center">
 
@@ -31,7 +31,7 @@
 
 ---
 
-### <img src="https://cdn.simpleicons.org/git/38BDF8" width="18" height="18" align="center" alt="git" /> Featured Projects
+### <img src="./assets/icon-git.svg" width="18" height="18" align="center" alt="git" /> Featured Projects
 
 <div align="center">
 
@@ -48,7 +48,7 @@
 
 ---
 
-### <img src="https://cdn.simpleicons.org/github/38BDF8" width="18" height="18" align="center" alt="github" /> GitHub Activity & Statistics
+### <img src="./assets/icon-github.svg" width="18" height="18" align="center" alt="github" /> GitHub Activity & Statistics
 
 <table align="center" style="border:none;">
   <tr style="border:none;">
