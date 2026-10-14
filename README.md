@@ -72,5 +72,5 @@
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=38BDF8&height=90&section=footer" width="100%" alt="Footer Wave" />
+  <img src="./assets/profile-footer.svg" alt="Profile Footer" width="100%" />
 </p>
