@@ -1,43 +1,50 @@
-<svg width="1280" height="390" viewBox="0 0 1280 390" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1280" height="380" viewBox="0 0 1280 380" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Muhammad Rochimuloh Profile Banner</title>
-  <desc id="desc">Modern high-tech glassmorphic profile banner for Muhammad Rochimuloh with complete technology stack and repository info.</desc>
+  <desc id="desc">High-impact cyber-navy developer banner for Muhammad Rochimuloh with prominent tech logos and clean terminal architecture.</desc>
 
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bg" x1="40" y1="20" x2="1240" y2="370" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#040812"/>
-      <stop offset="35%" stop-color="#09182E"/>
-      <stop offset="70%" stop-color="#0A243F"/>
-      <stop offset="100%" stop-color="#061A28"/>
+    <!-- Background Space Gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1280" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="35%" stop-color="#071328"/>
+      <stop offset="70%" stop-color="#0B1E3B"/>
+      <stop offset="100%" stop-color="#030816"/>
     </linearGradient>
 
-    <!-- Glass Panel Gradients -->
-    <linearGradient id="mainCard" x1="70" y1="45" x2="710" y2="345" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0F172A" stop-opacity="0.88"/>
-      <stop offset="100%" stop-color="#1E293B" stop-opacity="0.52"/>
+    <!-- Hero Card Gradient -->
+    <linearGradient id="heroCardBg" x1="50" y1="35" x2="720" y2="345" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F172A" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#0B132B" stop-opacity="0.75"/>
     </linearGradient>
 
-    <linearGradient id="mainCardStroke" x1="70" y1="45" x2="710" y2="345" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.55"/>
-      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0.4"/>
+    <linearGradient id="heroCardBorder" x1="50" y1="35" x2="720" y2="345" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0.5"/>
     </linearGradient>
 
-    <linearGradient id="codeCard" x1="740" y1="45" x2="1210" y2="345" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#020617" stop-opacity="0.94"/>
-      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.85"/>
+    <!-- Terminal Card Gradient -->
+    <linearGradient id="terminalBg" x1="745" y1="35" x2="1230" y2="345" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020617" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#0A1124" stop-opacity="0.9"/>
     </linearGradient>
 
-    <linearGradient id="codeCardStroke" x1="740" y1="45" x2="1210" y2="345" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.22"/>
-      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.38"/>
-      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.2"/>
+    <linearGradient id="terminalBorder" x1="745" y1="35" x2="1230" y2="345" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.25"/>
     </linearGradient>
 
-    <!-- Pill Tag Gradient -->
-    <linearGradient id="tagFill" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    <!-- Pill Tag Gradient & Highlights -->
+    <linearGradient id="pillBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <linearGradient id="pillBorder" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.1"/>
     </linearGradient>
 
     <linearGradient id="cyanLine" x1="0" y1="0" x2="1" y2="0">
@@ -47,254 +54,247 @@
     </linearGradient>
 
     <!-- Ambient Glowing Orbs -->
-    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 80) rotate(45) scale(340 240)">
-      <stop stop-color="#38BDF8" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    <radialGradient id="glowTopLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 60) scale(380 240)">
+      <stop stop-color="#0284C7" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#0284C7" stop-opacity="0"/>
     </radialGradient>
 
-    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 120) rotate(135) scale(400 280)">
-      <stop stop-color="#818CF8" stop-opacity="0.32"/>
-      <stop offset="60%" stop-color="#06B6D4" stop-opacity="0.16"/>
+    <radialGradient id="glowTopRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1080 100) scale(420 280)">
+      <stop stop-color="#6366F1" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#06B6D4" stop-opacity="0.18"/>
       <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
     </radialGradient>
 
-    <radialGradient id="glowBottom" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(640 360) rotate(-90) scale(220 420)">
-      <stop stop-color="#10B981" stop-opacity="0.2"/>
-      <stop offset="1" stop-color="#10B981" stop-opacity="0"/>
-    </radialGradient>
-
     <!-- Drop Shadow Filter -->
-    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.6"/>
     </filter>
 
-    <filter id="glowFilter" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
+    <filter id="glowDot" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
   </defs>
 
   <style>
-    .font-title { font-family: 'Poppins', 'Montserrat', 'Segoe UI', system-ui, sans-serif; font-weight: 700; }
+    .font-title { font-family: 'Poppins', 'Montserrat', 'Segoe UI', system-ui, sans-serif; }
     .font-sub { font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif; }
-    .font-mono { font-family: 'Fira Code', 'JetBrains Mono', 'Cascadia Code', Consolas, monospace; }
+    .font-mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
   </style>
 
-  <!-- Base Canvas -->
-  <rect width="1280" height="390" rx="28" fill="url(#bg)"/>
+  <!-- Background Base Canvas -->
+  <rect width="1280" height="380" rx="24" fill="url(#bgGrad)"/>
 
-  <!-- Ambient Glows -->
-  <circle cx="220" cy="80" r="230" fill="url(#glowLeft)"/>
-  <circle cx="1040" cy="120" r="270" fill="url(#glowRight)"/>
-  <circle cx="640" cy="350" r="250" fill="url(#glowBottom)"/>
+  <!-- Atmospheric Glow Orbs -->
+  <circle cx="180" cy="60" r="260" fill="url(#glowTopLeft)"/>
+  <circle cx="1080" cy="100" r="300" fill="url(#glowTopRight)"/>
 
-  <!-- Decorative Tech Grid in Background -->
-  <g opacity="0.14">
-    <path d="M40 90H1240M40 180H1240M40 270H1240M40 330H1240" stroke="#38BDF8" stroke-width="1" stroke-dasharray="4 8"/>
-    <path d="M200 30V360M400 30V360M600 30V360M800 30V360M1000 30V360" stroke="#38BDF8" stroke-width="1" stroke-dasharray="4 8"/>
+  <!-- High-Tech Coordinate Grid -->
+  <g opacity="0.12">
+    <path d="M40 95H1240M40 190H1240M40 285H1240" stroke="#38BDF8" stroke-width="1" stroke-dasharray="4 8"/>
+    <path d="M200 30V350M420 30V350M640 30V350M860 30V350M1080 30V350" stroke="#38BDF8" stroke-width="1" stroke-dasharray="4 8"/>
   </g>
 
-  <!-- Glowing background curved accents -->
-  <path d="M760 60C900 70 1070 130 1220 260" stroke="url(#cyanLine)" stroke-opacity="0.25" stroke-width="2" fill="none"/>
-  <path d="M820 330C950 310 1100 230 1240 100" stroke="url(#cyanLine)" stroke-opacity="0.18" stroke-width="1.5" fill="none"/>
-
-  <!-- OUTER BORDER FRAME -->
-  <rect x="40" y="25" width="1200" height="340" rx="24" fill="none" stroke="white" stroke-opacity="0.08" stroke-width="1.5"/>
+  <!-- Outer Frame -->
+  <rect x="30" y="20" width="1220" height="340" rx="22" fill="none" stroke="white" stroke-opacity="0.08" stroke-width="1.5"/>
 
   <!-- ================= LEFT HERO CARD ================= -->
-  <g filter="url(#softShadow)">
-    <rect x="65" y="45" width="655" height="300" rx="20" fill="url(#mainCard)"/>
-    <rect x="65.5" y="45.5" width="654" height="299" rx="19.5" stroke="url(#mainCardStroke)" stroke-width="1.5"/>
+  <g filter="url(#cardShadow)">
+    <rect x="50" y="35" width="670" height="310" rx="20" fill="url(#heroCardBg)"/>
+    <rect x="50.5" y="35.5" width="669" height="309" rx="19.5" stroke="url(#heroCardBorder)" stroke-width="1.5"/>
 
-    <!-- Gradient Accent Top Bar -->
-    <rect x="95" y="72" width="130" height="5" rx="2.5" fill="url(#cyanLine)"/>
-    <circle cx="245" cy="74.5" r="3" fill="#38BDF8"/>
-    <circle cx="258" cy="74.5" r="3" fill="#818CF8"/>
-    <circle cx="271" cy="74.5" r="3" fill="#34D399"/>
+    <!-- Accent Header Bar -->
+    <rect x="80" y="60" width="140" height="4.5" rx="2.2" fill="url(#cyanLine)"/>
+    <circle cx="235" cy="62.2" r="3" fill="#38BDF8"/>
+    <circle cx="248" cy="62.2" r="3" fill="#818CF8"/>
+    <circle cx="261" cy="62.2" r="3" fill="#34D399"/>
 
-    <!-- Status Badge -->
-    <g transform="translate(95, 92)">
-      <rect width="180" height="26" rx="13" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.35"/>
-      <circle cx="14" cy="13" r="4.5" fill="#10B981" filter="url(#glowFilter)"/>
-      <text x="27" y="17" fill="#34D399" class="font-mono" font-size="11" font-weight="600" letter-spacing="1">CODING ENTHUSIAST</text>
+    <!-- Eyebrow Status Badge -->
+    <g transform="translate(80, 78)">
+      <rect width="210" height="26" rx="13" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-opacity="0.4"/>
+      <circle cx="14" cy="13" r="4.5" fill="#10B981" filter="url(#glowDot)"/>
+      <text x="27" y="17" fill="#34D399" class="font-mono" font-size="11" font-weight="700" letter-spacing="1">ONLINE · AVAILABLE FOR WORK</text>
     </g>
 
-    <!-- Main Profile Name -->
-    <text x="95" y="152" fill="#FFFFFF" class="font-title" font-size="36" letter-spacing="0.2">
+    <!-- Main Headline Name (Bold, High Presence) -->
+    <text x="80" y="142" fill="#FFFFFF" class="font-title" font-size="40" font-weight="800" letter-spacing="-0.5">
       Muhammad Rochimuloh
     </text>
 
-    <!-- Subtitle / Bio -->
-    <text x="96" y="184" fill="#93C5FD" class="font-sub" font-size="16" font-weight="500">
-      Web &amp; Mobile Developer <tspan fill="#60A5FA" font-weight="700">·</tspan> Student @lunarxoim
+    <!-- Subtitle / Role -->
+    <text x="80" y="174" fill="#7DD3FC" class="font-sub" font-size="17" font-weight="600">
+      Web &amp; Mobile Engineer <tspan fill="#38BDF8">·</tspan> <tspan fill="#E2E8F0">Student @lunarxoim</tspan>
     </text>
 
-    <!-- Tech Stack Pill Badges: ROW 1 (TypeScript, Dart, Flutter, Laravel) -->
-    <g transform="translate(95, 210)">
+    <!-- ================= PROMINENT TECH LOGOS (2 BALANCED ROWS) ================= -->
+    
+    <!-- Row 1 (y=204) -->
+    <g transform="translate(80, 204)">
       
-      <!-- Badge 1: TypeScript -->
+      <!-- TypeScript Badge -->
       <g>
-        <rect x="0" y="0" width="116" height="34" rx="17" fill="url(#tagFill)" stroke="white" stroke-opacity="0.15"/>
-        <g transform="translate(10, 8)">
-          <rect width="18" height="18" rx="3.5" fill="#3178C6"/>
-          <text x="9" y="13.5" fill="#FFFFFF" class="font-mono" font-size="10" font-weight="900" text-anchor="middle">TS</text>
+        <rect width="130" height="38" rx="19" fill="url(#pillBg)" stroke="url(#pillBorder)" stroke-width="1.2"/>
+        <g transform="translate(12, 9)">
+          <rect width="20" height="20" rx="4" fill="#3178C6"/>
+          <text x="10" y="14.5" fill="#FFFFFF" class="font-mono" font-size="10.5" font-weight="900" text-anchor="middle">TS</text>
         </g>
-        <text x="35" y="22" fill="#F8FAFC" class="font-sub" font-size="12.5" font-weight="600">TypeScript</text>
+        <text x="40" y="24" fill="#F8FAFC" class="font-sub" font-size="13" font-weight="600">TypeScript</text>
       </g>
 
-      <!-- Badge 2: Dart -->
-      <g transform="translate(124, 0)">
-        <rect x="0" y="0" width="86" height="34" rx="17" fill="url(#tagFill)" stroke="white" stroke-opacity="0.15"/>
-        <g transform="translate(10, 8)">
-          <path d="M0 4.5L9 0L17 5L17 13.5L8 18L0 13.5Z" fill="#0175C2"/>
-          <path d="M5 6L14 3L14 12L7 14.5Z" fill="#02569B"/>
-          <path d="M1 9.5L8 14L15 9.5L12 7.5L8 10L3 7Z" fill="#29B6F6"/>
+      <!-- Dart Badge -->
+      <g transform="translate(140, 0)">
+        <rect width="96" height="38" rx="19" fill="url(#pillBg)" stroke="url(#pillBorder)" stroke-width="1.2"/>
+        <g transform="translate(12, 9)">
+          <path d="M0 5L10 0L19 5.5L19 15L9 20L0 15Z" fill="#0175C2"/>
+          <path d="M5.5 6.5L15.5 3.5L15.5 13.5L7.5 16Z" fill="#02569B"/>
+          <path d="M1 10.5L9 15.5L17 10.5L13.5 8.5L9 11L3.5 8Z" fill="#29B6F6"/>
         </g>
-        <text x="34" y="22" fill="#F8FAFC" class="font-sub" font-size="12.5" font-weight="600">Dart</text>
+        <text x="40" y="24" fill="#F8FAFC" class="font-sub" font-size="13" font-weight="600">Dart</text>
       </g>
 
-      <!-- Badge 3: Flutter -->
-      <g transform="translate(218, 0)">
-        <rect x="0" y="0" width="98" height="34" rx="17" fill="url(#tagFill)" stroke="white" stroke-opacity="0.15"/>
-        <g transform="translate(10, 8)">
-          <path d="M10 0L2 8L4.8 10.8L15.6 0H10Z" fill="#02569B"/>
-          <path d="M10 8.2L5.4 12.8L10 17.4H15.6L11 12.8L15.6 8.2H10Z" fill="#0175C2"/>
-          <path d="M5.4 12.8L8.2 15.6L12.8 11L10 8.2L5.4 12.8Z" fill="#29B6F6"/>
+      <!-- Flutter Badge -->
+      <g transform="translate(246, 0)">
+        <rect width="112" height="38" rx="19" fill="url(#pillBg)" stroke="url(#pillBorder)" stroke-width="1.2"/>
+        <g transform="translate(12, 9)">
+          <path d="M11 0L2 9L5.2 12.2L17.4 0H11Z" fill="#02569B"/>
+          <path d="M11 9.2L5.8 14.4L11 19.6H17.4L12.2 14.4L17.4 9.2H11Z" fill="#0175C2"/>
+          <path d="M5.8 14.4L9 17.6L14.2 12.4L11 9.2L5.8 14.4Z" fill="#29B6F6"/>
         </g>
-        <text x="34" y="22" fill="#F8FAFC" class="font-sub" font-size="12.5" font-weight="600">Flutter</text>
+        <text x="40" y="24" fill="#F8FAFC" class="font-sub" font-size="13" font-weight="600">Flutter</text>
       </g>
 
-      <!-- Badge 4: Laravel -->
-      <g transform="translate(324, 0)">
-        <rect x="0" y="0" width="102" height="34" rx="17" fill="url(#tagFill)" stroke="white" stroke-opacity="0.15"/>
-        <g transform="translate(10, 8)">
-          <path d="M9 1.5L1.5 5.5L9 9.5L16.5 5.5L9 1.5Z" fill="none" stroke="#FF2D20" stroke-width="1.6" stroke-linejoin="round"/>
-          <path d="M1.5 5.5V12.5L9 16.5V9.5" fill="none" stroke="#FF2D20" stroke-width="1.6" stroke-linejoin="round"/>
-          <path d="M16.5 5.5V12.5L9 16.5" fill="none" stroke="#FF2D20" stroke-width="1.6" stroke-linejoin="round"/>
+      <!-- Laravel Badge -->
+      <g transform="translate(368, 0)">
+        <rect width="118" height="38" rx="19" fill="url(#pillBg)" stroke="url(#pillBorder)" stroke-width="1.2"/>
+        <g transform="translate(12, 9)">
+          <path d="M10 1.5L1.5 6L10 10.5L18.5 6L10 1.5Z" fill="none" stroke="#FF2D20" stroke-width="1.8" stroke-linejoin="round"/>
+          <path d="M1.5 6V14L10 18.5V10.5" fill="none" stroke="#FF2D20" stroke-width="1.8" stroke-linejoin="round"/>
+          <path d="M18.5 6V14L10 18.5" fill="none" stroke="#FF2D20" stroke-width="1.8" stroke-linejoin="round"/>
         </g>
-        <text x="34" y="22" fill="#F8FAFC" class="font-sub" font-size="12.5" font-weight="600">Laravel</text>
+        <text x="40" y="24" fill="#F8FAFC" class="font-sub" font-size="13" font-weight="600">Laravel</text>
       </g>
 
     </g>
 
-    <!-- Tech Stack Pill Badges: ROW 2 (Tailwind CSS, PHP, MySQL, Git) -->
-    <g transform="translate(95, 254)">
+    <!-- Row 2 (y=252) -->
+    <g transform="translate(80, 252)">
       
-      <!-- Badge 5: Tailwind CSS -->
+      <!-- Tailwind CSS Badge -->
       <g>
-        <rect x="0" y="0" width="124" height="34" rx="17" fill="url(#tagFill)" stroke="white" stroke-opacity="0.15"/>
-        <g transform="translate(10, 8)">
-          <path d="M4.5 9c1-2 2.5-3 4.5-3 3 0 3.75 2.25 5.25 2.25 1 0 1.75-.5 2.25-1.5-1 2-2.5 3-4.5 3-3 0-3.75-2.25-5.25-2.25-1 0-1.75.5-2.25 1.5zm-4.5 6c1-2 2.5-3 4.5-3 3 0 3.75 2.25 5.25 2.25 1 0 1.75-.5 2.25-1.5-1 2-2.5 3-4.5 3-3 0-3.75-2.25-5.25-2.25-1 0-1.75.5-2.25 1.5z" fill="#06B6D4"/>
+        <rect width="144" height="38" rx="19" fill="url(#pillBg)" stroke="url(#pillBorder)" stroke-width="1.2"/>
+        <g transform="translate(12, 9)">
+          <path d="M5 10c1.2-2.3 2.8-3.4 5-3.4 3.4 0 4.2 2.5 5.9 2.5 1.1 0 2-.6 2.6-1.7-1.1 2.3-2.8 3.4-5 3.4-3.4 0-4.2-2.5-5.9-2.5-1.1 0-2 .6-2.6 1.7zm-5 6.7c1.2-2.3 2.8-3.4 5-3.4 3.4 0 4.2 2.5 5.9 2.5 1.1 0 2-.6 2.6-1.7-1.1 2.3-2.8 3.4-5 3.4-3.4 0-4.2-2.5-5.9-2.5-1.1 0-2 .6-2.6 1.7z" fill="#06B6D4"/>
         </g>
-        <text x="34" y="22" fill="#F8FAFC" class="font-sub" font-size="12.5" font-weight="600">Tailwind CSS</text>
+        <text x="40" y="24" fill="#F8FAFC" class="font-sub" font-size="13" font-weight="600">Tailwind CSS</text>
       </g>
 
-      <!-- Badge 6: PHP -->
-      <g transform="translate(132, 0)">
-        <rect x="0" y="0" width="84" height="34" rx="17" fill="url(#tagFill)" stroke="white" stroke-opacity="0.15"/>
-        <g transform="translate(10, 8)">
-          <rect width="20" height="18" rx="4" fill="#777BB4"/>
-          <text x="10" y="13" fill="#FFFFFF" class="font-mono" font-size="8.5" font-weight="900" text-anchor="middle">PHP</text>
+      <!-- PHP Badge -->
+      <g transform="translate(154, 0)">
+        <rect width="94" height="38" rx="19" fill="url(#pillBg)" stroke="url(#pillBorder)" stroke-width="1.2"/>
+        <g transform="translate(12, 9)">
+          <rect width="22" height="20" rx="4.5" fill="#777BB4"/>
+          <text x="11" y="14.5" fill="#FFFFFF" class="font-mono" font-size="9" font-weight="900" text-anchor="middle">PHP</text>
         </g>
-        <text x="35" y="22" fill="#F8FAFC" class="font-sub" font-size="12.5" font-weight="600">PHP</text>
+        <text x="41" y="24" fill="#F8FAFC" class="font-sub" font-size="13" font-weight="600">PHP</text>
       </g>
 
-      <!-- Badge 7: MySQL -->
-      <g transform="translate(224, 0)">
-        <rect x="0" y="0" width="94" height="34" rx="17" fill="url(#tagFill)" stroke="white" stroke-opacity="0.15"/>
-        <g transform="translate(10, 8)">
-          <ellipse cx="9" cy="4.5" rx="7.5" ry="3" fill="none" stroke="#38BDF8" stroke-width="1.4"/>
-          <path d="M1.5 4.5V13.5C1.5 15.15 4.85 16.5 9 16.5C13.15 16.5 16.5 15.15 16.5 13.5V4.5" fill="none" stroke="#38BDF8" stroke-width="1.4"/>
-          <path d="M1.5 9C1.5 10.65 4.85 12 9 12C13.15 12 16.5 10.65 16.5 9" fill="none" stroke="#38BDF8" stroke-width="1.4"/>
+      <!-- MySQL Badge -->
+      <g transform="translate(258, 0)">
+        <rect width="108" height="38" rx="19" fill="url(#pillBg)" stroke="url(#pillBorder)" stroke-width="1.2"/>
+        <g transform="translate(12, 9)">
+          <ellipse cx="10" cy="5" rx="8.5" ry="3.5" fill="none" stroke="#38BDF8" stroke-width="1.5"/>
+          <path d="M1.5 5V15C1.5 16.8 5.3 18.5 10 18.5C14.7 18.5 18.5 16.8 18.5 15V5" fill="none" stroke="#38BDF8" stroke-width="1.5"/>
+          <path d="M1.5 10C1.5 11.8 5.3 13.5 10 13.5C14.7 13.5 18.5 11.8 18.5 10" fill="none" stroke="#38BDF8" stroke-width="1.5"/>
         </g>
-        <text x="33" y="22" fill="#F8FAFC" class="font-sub" font-size="12.5" font-weight="600">MySQL</text>
+        <text x="39" y="24" fill="#F8FAFC" class="font-sub" font-size="13" font-weight="600">MySQL</text>
       </g>
 
-      <!-- Badge 8: Git -->
-      <g transform="translate(326, 0)">
-        <rect x="0" y="0" width="78" height="34" rx="17" fill="url(#tagFill)" stroke="white" stroke-opacity="0.15"/>
-        <g transform="translate(10, 8)">
-          <path d="M16 8L10.5 2.5a1.2 1.2 0 0 0-1.7 0L6.5 4.8l2.2 2.2a1.5 1.5 0 0 1 1.9 1.9l2.1 2.1a1.5 1.5 0 1 1-.9.9l-2-2v3.3a1.5 1.5 0 1 1-1.2 0V8.5a1.5 1.5 0 0 1-.8-1.9L5.5 4.4 2 7.8a1.2 1.2 0 0 0 0 1.7L7.5 15a1.2 1.2 0 0 0 1.7 0l6.8-6.8a1.2 1.2 0 0 0 0-1.7z" fill="#F05032"/>
+      <!-- Git Badge -->
+      <g transform="translate(376, 0)">
+        <rect width="88" height="38" rx="19" fill="url(#pillBg)" stroke="url(#pillBorder)" stroke-width="1.2"/>
+        <g transform="translate(12, 9)">
+          <path d="M18 9L11.5 2.5a1.4 1.4 0 0 0-2 0L7.5 4.5l2.6 2.6a1.8 1.8 0 0 1 2.3 2.3l2.5 2.5a1.8 1.8 0 1 1-1.1 1.1l-2.4-2.4v3.8a1.8 1.8 0 1 1-1.4 0V9.8a1.8 1.8 0 0 1-1-2.3L6.5 5.1 2.5 9.1a1.4 1.4 0 0 0 0 2L10.5 19a1.4 1.4 0 0 0 2 0L20 11.5a1.4 1.4 0 0 0 0-2.5z" fill="#F05032"/>
         </g>
-        <text x="33" y="22" fill="#F8FAFC" class="font-sub" font-size="12.5" font-weight="600">Git</text>
+        <text x="39" y="24" fill="#F8FAFC" class="font-sub" font-size="13" font-weight="600">Git</text>
       </g>
 
     </g>
+
   </g>
 
-  <!-- ================= RIGHT VISUAL / CODE WINDOW ================= -->
-  <g filter="url(#softShadow)" transform="translate(740, 45)">
-    <!-- Terminal Box Frame -->
-    <rect width="475" height="300" rx="20" fill="url(#codeCard)"/>
-    <rect x="0.5" y="0.5" width="474" height="299" rx="19.5" stroke="url(#codeCardStroke)" stroke-width="1.2"/>
+  <!-- ================= RIGHT VISUAL / HIGH-TECH TERMINAL ================= -->
+  <g filter="url(#cardShadow)" transform="translate(745, 35)">
+    <!-- Terminal Outer Frame -->
+    <rect width="485" height="310" rx="20" fill="url(#terminalBg)"/>
+    <rect x="0.5" y="0.5" width="484" height="309" rx="19.5" stroke="url(#terminalBorder)" stroke-width="1.2"/>
 
-    <!-- Terminal Header -->
-    <path d="M0 20C0 8.95431 8.95431 0 20 0H455C466.046 0 475 8.95431 475 20V42H0V20Z" fill="#0B132B" fill-opacity="0.6"/>
-    <line x1="0" y1="42" x2="475" y2="42" stroke="white" stroke-opacity="0.08"/>
+    <!-- Terminal Mac Header -->
+    <path d="M0 20C0 8.95431 8.95431 0 20 0H465C476.046 0 485 8.95431 485 20V44H0V20Z" fill="#0B132B" fill-opacity="0.8"/>
+    <line x1="0" y1="44" x2="485" y2="44" stroke="white" stroke-opacity="0.1"/>
 
     <!-- Window Dots -->
-    <circle cx="22" cy="21" r="5.5" fill="#EF4444" fill-opacity="0.9"/>
-    <circle cx="39" cy="21" r="5.5" fill="#F59E0B" fill-opacity="0.9"/>
-    <circle cx="56" cy="21" r="5.5" fill="#10B981" fill-opacity="0.9"/>
+    <circle cx="24" cy="22" r="6" fill="#EF4444"/>
+    <circle cx="43" cy="22" r="6" fill="#F59E0B"/>
+    <circle cx="62" cy="22" r="6" fill="#10B981"/>
 
-    <!-- Window Title -->
-    <text x="237" y="26" fill="#94A3B8" class="font-mono" font-size="12" font-weight="500" text-anchor="middle">
-      ~/oimcuyyy/profile.ts
+    <!-- Tab Name -->
+    <text x="242" y="27" fill="#CBD5E1" class="font-mono" font-size="12.5" font-weight="600" text-anchor="middle">
+      ~/oimcuyyy/developer.config.ts
     </text>
 
     <!-- Terminal Code Body -->
-    <g transform="translate(24, 66)" class="font-mono" font-size="12" letter-spacing="0.2">
+    <g transform="translate(26, 72)" class="font-mono" font-size="12.5" letter-spacing="0.2">
       <!-- Line 1 -->
       <text y="0">
-        <tspan fill="#C084FC" font-weight="600">const</tspan> <tspan fill="#67E8F9">developer</tspan> <tspan fill="#94A3B8">=</tspan> <tspan fill="#F8FAFC">{</tspan>
+        <tspan fill="#C084FC" font-weight="700">export const</tspan> <tspan fill="#38BDF8" font-weight="600">developer</tspan> <tspan fill="#94A3B8">=</tspan> <tspan fill="#F8FAFC">{</tspan>
       </text>
 
       <!-- Line 2 -->
-      <text y="21">
-        <tspan fill="#94A3B8">  name:</tspan> <tspan fill="#86EFAC">"Muhammad Rochimuloh"</tspan><tspan fill="#94A3B8">,</tspan>
+      <text y="24">
+        <tspan fill="#94A3B8">  name:</tspan> <tspan fill="#34D399">"Muhammad Rochimuloh"</tspan><tspan fill="#94A3B8">,</tspan>
       </text>
 
       <!-- Line 3 -->
-      <text y="42">
-        <tspan fill="#94A3B8">  handle:</tspan> <tspan fill="#86EFAC">"@oimcuyyy"</tspan><tspan fill="#94A3B8">,</tspan>
+      <text y="48">
+        <tspan fill="#94A3B8">  handle:</tspan> <tspan fill="#38BDF8">"@oimcuyyy"</tspan><tspan fill="#94A3B8">,</tspan>
       </text>
 
       <!-- Line 4 -->
-      <text y="63">
-        <tspan fill="#94A3B8">  role:</tspan> <tspan fill="#86EFAC">"Web &amp; Mobile Developer"</tspan><tspan fill="#94A3B8">,</tspan>
+      <text y="72">
+        <tspan fill="#94A3B8">  role:</tspan> <tspan fill="#34D399">"Web &amp; Mobile Engineer"</tspan><tspan fill="#94A3B8">,</tspan>
       </text>
 
       <!-- Line 5 -->
-      <text y="84">
-        <tspan fill="#94A3B8">  stack:</tspan> <tspan fill="#F8FAFC">[</tspan><tspan fill="#93C5FD">"TypeScript"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#67E8F9">"Dart"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#38BDF8">"Flutter"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#FCA5A5">"Laravel"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#2DD4BF">"Tailwind"</tspan><tspan fill="#F8FAFC">]</tspan><tspan fill="#94A3B8">,</tspan>
+      <text y="96">
+        <tspan fill="#94A3B8">  coreStack:</tspan> <tspan fill="#F8FAFC">[</tspan><tspan fill="#60A5FA">"TS"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#38BDF8">"Dart"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#2DD4BF">"Flutter"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#F87171">"Laravel"</tspan><tspan fill="#F8FAFC">]</tspan><tspan fill="#94A3B8">,</tspan>
       </text>
 
       <!-- Line 6 -->
-      <text y="105">
-        <tspan fill="#94A3B8">  projects:</tspan> <tspan fill="#F8FAFC">[</tspan><tspan fill="#FDE047">"portofolio.app"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#6EE7B7">"project_pos"</tspan><tspan fill="#F8FAFC">]</tspan><tspan fill="#94A3B8">,</tspan>
+      <text y="120">
+        <tspan fill="#94A3B8">  projects:</tspan> <tspan fill="#F8FAFC">[</tspan><tspan fill="#FBBF24">"portofolio.app"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#4ADE80">"project_pos"</tspan><tspan fill="#F8FAFC">]</tspan><tspan fill="#94A3B8">,</tspan>
       </text>
 
       <!-- Line 7 -->
-      <text y="126">
-        <tspan fill="#94A3B8">  passion:</tspan> <tspan fill="#86EFAC">"Building performant, high-impact products"</tspan>
+      <text y="144">
+        <tspan fill="#94A3B8">  passion:</tspan> <tspan fill="#34D399">"Building performant, high-impact products"</tspan>
       </text>
 
       <!-- Line 8 -->
-      <text y="146">
+      <text y="168">
         <tspan fill="#F8FAFC">};</tspan>
       </text>
 
-      <!-- Line 9 / Interactive prompt cursor -->
-      <text y="170">
-        <tspan fill="#34D399" font-weight="700">➜</tspan> <tspan fill="#38BDF8">~/github</tspan> <tspan fill="#E2E8F0">git status</tspan> <tspan fill="#34D399">✔ clean</tspan>
+      <!-- Line 9 / Active Prompt -->
+      <text y="196">
+        <tspan fill="#10B981" font-weight="700">➜</tspan> <tspan fill="#38BDF8">~/github</tspan> <tspan fill="#E2E8F0">git status</tspan> <tspan fill="#34D399">✔ working tree clean</tspan>
       </text>
     </g>
 
-    <!-- Floating Mini Glass Pill on Code Card -->
-    <g transform="translate(290, 240)">
-      <rect width="165" height="32" rx="16" fill="#0E233D" fill-opacity="0.9" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1"/>
-      <circle cx="15" cy="16" r="3.5" fill="#38BDF8"/>
-      <text x="26" y="20.5" fill="#E0F2FE" class="font-mono" font-size="10.5" font-weight="600">TypeScript · Dart · Flutter</text>
+    <!-- Bottom Pill Tag -->
+    <g transform="translate(295, 252)">
+      <rect width="165" height="34" rx="17" fill="#0E233D" fill-opacity="0.95" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1.2"/>
+      <circle cx="16" cy="17" r="4" fill="#38BDF8"/>
+      <text x="28" y="21.5" fill="#E0F2FE" class="font-mono" font-size="11" font-weight="700">TS · DART · FLUTTER</text>
     </g>
   </g>
 
